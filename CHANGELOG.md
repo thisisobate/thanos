@@ -14,6 +14,7 @@ We use *breaking* word for marking changes that are not backward compatible (rel
 ### Fixed
 
 - [#2501](https://github.com/thanos-io/thanos/pull/2501) Query: gracefully handle additional fields in `SeriesResponse` protobuf message that may be added in the future.
+- [#2548](https://github.com/thanos-io/thanos/pull/2548) Query: Fixed rare cases of double counter reset accounting when querying `rate` with deduplication enabled.
 
 ### Added
 
